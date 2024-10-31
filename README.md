@@ -7,7 +7,7 @@ PROBLEM B
 	Ta có thể thấy N = 5000 nên ta có thể 2 for để tìm 2 số đầu tiên rồi sau đó xử lí 2 số còn lại sau.
  	Nếu ta có 1 mask1 gọi mask2 là mask được tạo ra bằng cách biến cái bit 1 của mask1 thành bit 0 và ngược lại.
   	Ví dụ mask1 = 10110 thì mask2 = 01001
-   	Thì tất cả các mask & mask = 0 sẽ là mask2 và các con của nó và ta có thể dùng SOS để giải.
+   	Thì tất cả các mask & mask1 = 0 sẽ là mask2 và các con của nó và ta có thể dùng SOS để giải.
 
 PROBLEM F
 	
