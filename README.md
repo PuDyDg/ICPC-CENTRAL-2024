@@ -2,6 +2,12 @@ PROBLEM A
 
 	Đây là một bài Knapsack cơ bản chỉ có 1 điều khác biệt là ta cần thêm 1 chiều để quản lý món đồ trên tay của tên trộm và đảo chiều QHD vì cân nặng của các món vật là quá lớn. 
 
+PROBLEM B
+	Ta có thể thấy N = 5000 nên ta có thể 2 for để tìm 2 số đầu tiên rồi sau đó xử lí 2 số còn lại sau.
+ 	Nếu ta có 1 mask1 gọi mask2 là mask được tạo ra bằng cách biến cái bit 1 của mask1 thành bit 0 và ngược lại.
+  	Ví dụ mask1 = 10110 thì mask2 = 01001
+   	Thì tất cả các mask & mask = 0 sẽ là mask2 và các con của nó và ta có thể dùng SOS để giải.
+
 PROBLEM F
 	
 	Vừa nhìn vào ta có thể thấy đây là một bài toán MAXFLOW.
